@@ -5,19 +5,20 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HelloWorld
   }
-}
+};
 </script>
 
 <style>
 body {
-  background-color: #000!important;
+  background-color: #000 !important;
+  height: 100vh;
 }
 button {
   -webkit-app-region: no-drag;
@@ -28,6 +29,5 @@ button {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fafafa;
-  margin-top: 60px;
 }
 </style>
