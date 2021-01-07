@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <HelloWorld />
+    <Sleeper />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Sleeper from "./components/Sleeper.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Sleeper
   }
 };
 </script>
@@ -29,5 +29,7 @@ button {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fafafa;
+  height: 100%;
+  width: 100%;
 }
 </style>
